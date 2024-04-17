@@ -1,0 +1,492 @@
+-- REBORN SCRIPT NOT FINISHED YET. / MADE BY FORSAKEN
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local TPBACK = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_2 = Instance.new("UICorner")
+local infrespawn = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_3 = Instance.new("UICorner")
+local getallgears = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_4 = Instance.new("UICorner")
+local infammoswing = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local UIGradient_5 = Instance.new("UIGradient")
+local UICorner_5 = Instance.new("UICorner")
+local teleport = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_6 = Instance.new("UICorner")
+local infammoyank = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_7 = Instance.new("UICorner")
+local unlockabs = Instance.new("TextButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local UIGradient_8 = Instance.new("UIGradient")
+local UICorner_8 = Instance.new("UICorner")
+local SwingGrap = Instance.new("TextButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local UIGradient_9 = Instance.new("UIGradient")
+local UICorner_9 = Instance.new("UICorner")
+local nocooldown = Instance.new("TextButton")
+local TextLabel_11 = Instance.new("TextLabel")
+local UIGradient_10 = Instance.new("UIGradient")
+local UICorner_10 = Instance.new("UICorner")
+local shop = Instance.new("TextButton")
+local TextLabel_12 = Instance.new("TextLabel")
+local UIGradient_11 = Instance.new("UIGradient")
+local UICorner_11 = Instance.new("UICorner")
+local btools = Instance.new("TextButton")
+local TextLabel_13 = Instance.new("TextLabel")
+local UIGradient_12 = Instance.new("UIGradient")
+local UICorner_12 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 3)
+Frame.BorderColor3 = Color3.fromRGB(26, 42, 52)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.362793565, 0, 0.588056684, 0)
+Frame.Size = UDim2.new(0, 472, 0, 337)
+Frame.ZIndex = 5
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 70, 70))}
+UIGradient.Rotation = 270
+UIGradient.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.35)}
+UIGradient.Parent = Frame
+
+UICorner.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TextLabel.Position = UDim2.new(0.337000012, 0, 0.00800000038, 0)
+TextLabel.Size = UDim2.new(0.625999987, -15, 0.140000001, 0)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "REBORN GUI"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_2.Parent = Frame
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TextLabel_2.Position = UDim2.new(0.601694942, 0, 0.00800000038, 0)
+TextLabel_2.Size = UDim2.new(0.800847471, -20, 0.140000001, 0)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "Reborn GUI Scripts"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 13.000
+TextLabel_2.TextTransparency = 0.300
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Right
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+ScrollingFrame.BackgroundTransparency = 0.800
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.0381355621, 0, 0.142433241, 0)
+ScrollingFrame.Size = UDim2.new(0, 435, 0, 275)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 150)
+ScrollingFrame.ScrollBarThickness = 3
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 6)
+
+TPBACK.Name = "TPBACK"
+TPBACK.Parent = ScrollingFrame
+TPBACK.AnchorPoint = Vector2.new(0.5, 1)
+TPBACK.BackgroundColor3 = Color3.fromRGB(156, 0, 0)
+TPBACK.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TPBACK.LayoutOrder = 1
+TPBACK.Position = UDim2.new(0.5, 0, 0.282722503, -25)
+TPBACK.Size = UDim2.new(0, 435, 0, 29)
+TPBACK.Font = Enum.Font.Unknown
+TPBACK.Text = ""
+TPBACK.TextColor3 = Color3.fromRGB(0, 0, 0)
+TPBACK.TextSize = 14.000
+
+TextLabel_3.Parent = TPBACK
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TextLabel_3.Position = UDim2.new(0.497674376, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0.94069767, -15, 1.03571427, 0)
+TextLabel_3.Font = Enum.Font.Unknown
+TextLabel_3.Text = "<b>Disable TP Back (Restricted Areas)</b>"
+TextLabel_3.TextColor3 = Color3.fromRGB(137, 253, 255)
+TextLabel_3.TextSize = 20.000
+TextLabel_3.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 70, 70))}
+UIGradient_2.Rotation = 90
+UIGradient_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.35)}
+UIGradient_2.Parent = TextLabel_3
+
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = TPBACK
+
+infrespawn.Name = "infrespawn"
+infrespawn.Parent = ScrollingFrame
+infrespawn.AnchorPoint = Vector2.new(0.5, 1)
+infrespawn.BackgroundColor3 = Color3.fromRGB(156, 0, 0)
+infrespawn.BorderColor3 = Color3.fromRGB(26, 42, 52)
+infrespawn.LayoutOrder = 1
+infrespawn.Position = UDim2.new(0.5, 0, 0.282722503, -25)
+infrespawn.Size = UDim2.new(0, 435, 0, 29)
+infrespawn.Font = Enum.Font.Unknown
+infrespawn.Text = ""
+infrespawn.TextColor3 = Color3.fromRGB(0, 0, 0)
+infrespawn.TextSize = 14.000
+
+TextLabel_4.Parent = infrespawn
+TextLabel_4.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TextLabel_4.Position = UDim2.new(0.497674376, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0.94069767, -15, 1.03571427, 0)
+TextLabel_4.Font = Enum.Font.Unknown
+TextLabel_4.Text = "<b>Infinite Respawn Lives</b>"
+TextLabel_4.TextColor3 = Color3.fromRGB(137, 253, 255)
+TextLabel_4.TextSize = 20.000
+TextLabel_4.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 70, 70))}
+UIGradient_3.Rotation = 90
+UIGradient_3.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.35)}
+UIGradient_3.Parent = TextLabel_4
+
+UICorner_3.CornerRadius = UDim.new(0, 4)
+UICorner_3.Parent = infrespawn
+
+getallgears.Name = "getallgears"
+getallgears.Parent = ScrollingFrame
+getallgears.AnchorPoint = Vector2.new(0.5, 1)
+getallgears.BackgroundColor3 = Color3.fromRGB(156, 0, 0)
+getallgears.BorderColor3 = Color3.fromRGB(26, 42, 52)
+getallgears.LayoutOrder = 1
+getallgears.Position = UDim2.new(0.5, 0, 0.282722503, -25)
+getallgears.Size = UDim2.new(0, 435, 0, 29)
+getallgears.Font = Enum.Font.Unknown
+getallgears.Text = ""
+getallgears.TextColor3 = Color3.fromRGB(0, 0, 0)
+getallgears.TextSize = 14.000
+
+TextLabel_5.Parent = getallgears
+TextLabel_5.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TextLabel_5.Position = UDim2.new(0.497674376, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0.94069767, -15, 1.03571427, 0)
+TextLabel_5.Font = Enum.Font.Unknown
+TextLabel_5.Text = "<b>Get All Gears</b>"
+TextLabel_5.TextColor3 = Color3.fromRGB(137, 253, 255)
+TextLabel_5.TextSize = 20.000
+TextLabel_5.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 70, 70))}
+UIGradient_4.Rotation = 90
+UIGradient_4.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.35)}
+UIGradient_4.Parent = TextLabel_5
+
+UICorner_4.CornerRadius = UDim.new(0, 4)
+UICorner_4.Parent = getallgears
+
+infammoswing.Name = "infammoswing"
+infammoswing.Parent = ScrollingFrame
+infammoswing.AnchorPoint = Vector2.new(0.5, 1)
+infammoswing.BackgroundColor3 = Color3.fromRGB(156, 0, 0)
+infammoswing.BorderColor3 = Color3.fromRGB(26, 42, 52)
+infammoswing.LayoutOrder = 1
+infammoswing.Position = UDim2.new(0.5, 0, 0.282722503, -25)
+infammoswing.Size = UDim2.new(0, 435, 0, 29)
+infammoswing.Font = Enum.Font.Unknown
+infammoswing.Text = ""
+infammoswing.TextColor3 = Color3.fromRGB(0, 0, 0)
+infammoswing.TextSize = 14.000
+
+TextLabel_6.Parent = infammoswing
+TextLabel_6.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TextLabel_6.Position = UDim2.new(0.497674376, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0.94069767, -15, 1.03571427, 0)
+TextLabel_6.Font = Enum.Font.Unknown
+TextLabel_6.Text = "<b>Infinite Ammo Swing Grappler</b>"
+TextLabel_6.TextColor3 = Color3.fromRGB(137, 253, 255)
+TextLabel_6.TextSize = 20.000
+TextLabel_6.TextWrapped = true
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 70, 70))}
+UIGradient_5.Rotation = 90
+UIGradient_5.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.35)}
+UIGradient_5.Parent = TextLabel_6
+
+UICorner_5.CornerRadius = UDim.new(0, 4)
+UICorner_5.Parent = infammoswing
+
+teleport.Name = "teleport"
+teleport.Parent = ScrollingFrame
+teleport.AnchorPoint = Vector2.new(0.5, 1)
+teleport.BackgroundColor3 = Color3.fromRGB(156, 0, 0)
+teleport.BorderColor3 = Color3.fromRGB(26, 42, 52)
+teleport.LayoutOrder = 1
+teleport.Position = UDim2.new(0.5, 0, 0.282722503, -25)
+teleport.Size = UDim2.new(0, 435, 0, 29)
+teleport.Font = Enum.Font.Unknown
+teleport.Text = ""
+teleport.TextColor3 = Color3.fromRGB(0, 0, 0)
+teleport.TextSize = 14.000
+
+TextLabel_7.Parent = teleport
+TextLabel_7.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TextLabel_7.Position = UDim2.new(0.497674376, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0.94069767, -15, 1.03571427, 0)
+TextLabel_7.Font = Enum.Font.Unknown
+TextLabel_7.Text = "<b>Teleport To</b>"
+TextLabel_7.TextColor3 = Color3.fromRGB(137, 253, 255)
+TextLabel_7.TextSize = 20.000
+TextLabel_7.TextWrapped = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 70, 70))}
+UIGradient_6.Rotation = 90
+UIGradient_6.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.35)}
+UIGradient_6.Parent = TextLabel_7
+
+UICorner_6.CornerRadius = UDim.new(0, 4)
+UICorner_6.Parent = teleport
+
+infammoyank.Name = "infammoyank"
+infammoyank.Parent = ScrollingFrame
+infammoyank.AnchorPoint = Vector2.new(0.5, 1)
+infammoyank.BackgroundColor3 = Color3.fromRGB(156, 0, 0)
+infammoyank.BorderColor3 = Color3.fromRGB(26, 42, 52)
+infammoyank.LayoutOrder = 1
+infammoyank.Position = UDim2.new(0.5, 0, 0.282722503, -25)
+infammoyank.Size = UDim2.new(0, 435, 0, 29)
+infammoyank.Font = Enum.Font.Unknown
+infammoyank.Text = ""
+infammoyank.TextColor3 = Color3.fromRGB(0, 0, 0)
+infammoyank.TextSize = 14.000
+
+TextLabel_8.Parent = infammoyank
+TextLabel_8.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TextLabel_8.Position = UDim2.new(0.497674376, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0.94069767, -15, 1.03571427, 0)
+TextLabel_8.Font = Enum.Font.Unknown
+TextLabel_8.Text = "<b>Infinite Yank Grappler Ammo</b>"
+TextLabel_8.TextColor3 = Color3.fromRGB(137, 253, 255)
+TextLabel_8.TextSize = 20.000
+TextLabel_8.TextWrapped = true
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 70, 70))}
+UIGradient_7.Rotation = 90
+UIGradient_7.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.35)}
+UIGradient_7.Parent = TextLabel_8
+
+UICorner_7.CornerRadius = UDim.new(0, 4)
+UICorner_7.Parent = infammoyank
+
+unlockabs.Name = "unlockabs"
+unlockabs.Parent = ScrollingFrame
+unlockabs.AnchorPoint = Vector2.new(0.5, 1)
+unlockabs.BackgroundColor3 = Color3.fromRGB(156, 0, 0)
+unlockabs.BorderColor3 = Color3.fromRGB(26, 42, 52)
+unlockabs.LayoutOrder = 1
+unlockabs.Position = UDim2.new(0.5, 0, 0.282722503, -25)
+unlockabs.Size = UDim2.new(0, 435, 0, 29)
+unlockabs.Font = Enum.Font.Unknown
+unlockabs.Text = ""
+unlockabs.TextColor3 = Color3.fromRGB(0, 0, 0)
+unlockabs.TextSize = 14.000
+
+TextLabel_9.Parent = unlockabs
+TextLabel_9.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TextLabel_9.Position = UDim2.new(0.497674376, 0, 0, 0)
+TextLabel_9.Size = UDim2.new(0.94069767, -15, 1.03571427, 0)
+TextLabel_9.Font = Enum.Font.Unknown
+TextLabel_9.Text = "<b>Unlock All Abilities</b>"
+TextLabel_9.TextColor3 = Color3.fromRGB(137, 253, 255)
+TextLabel_9.TextSize = 20.000
+TextLabel_9.TextWrapped = true
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 70, 70))}
+UIGradient_8.Rotation = 90
+UIGradient_8.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.35)}
+UIGradient_8.Parent = TextLabel_9
+
+UICorner_8.CornerRadius = UDim.new(0, 4)
+UICorner_8.Parent = unlockabs
+
+SwingGrap.Name = "SwingGrap"
+SwingGrap.Parent = ScrollingFrame
+SwingGrap.AnchorPoint = Vector2.new(0.5, 1)
+SwingGrap.BackgroundColor3 = Color3.fromRGB(156, 0, 0)
+SwingGrap.BorderColor3 = Color3.fromRGB(26, 42, 52)
+SwingGrap.LayoutOrder = 1
+SwingGrap.Position = UDim2.new(0.5, 0, 0.282722503, -25)
+SwingGrap.Size = UDim2.new(0, 435, 0, 29)
+SwingGrap.Font = Enum.Font.Unknown
+SwingGrap.Text = ""
+SwingGrap.TextColor3 = Color3.fromRGB(0, 0, 0)
+SwingGrap.TextSize = 14.000
+
+TextLabel_10.Parent = SwingGrap
+TextLabel_10.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TextLabel_10.Position = UDim2.new(0.497674376, 0, 0, 0)
+TextLabel_10.Size = UDim2.new(0.94069767, -15, 1.03571427, 0)
+TextLabel_10.Font = Enum.Font.Unknown
+TextLabel_10.Text = "<b>Get Swing Grappler</b>"
+TextLabel_10.TextColor3 = Color3.fromRGB(137, 253, 255)
+TextLabel_10.TextSize = 20.000
+TextLabel_10.TextWrapped = true
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 70, 70))}
+UIGradient_9.Rotation = 90
+UIGradient_9.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.35)}
+UIGradient_9.Parent = TextLabel_10
+
+UICorner_9.CornerRadius = UDim.new(0, 4)
+UICorner_9.Parent = SwingGrap
+
+nocooldown.Name = "nocooldown"
+nocooldown.Parent = ScrollingFrame
+nocooldown.AnchorPoint = Vector2.new(0.5, 1)
+nocooldown.BackgroundColor3 = Color3.fromRGB(156, 0, 0)
+nocooldown.BorderColor3 = Color3.fromRGB(26, 42, 52)
+nocooldown.LayoutOrder = 1
+nocooldown.Position = UDim2.new(0.5, 0, 0.282722503, -25)
+nocooldown.Size = UDim2.new(0, 435, 0, 29)
+nocooldown.Font = Enum.Font.Unknown
+nocooldown.Text = ""
+nocooldown.TextColor3 = Color3.fromRGB(0, 0, 0)
+nocooldown.TextSize = 14.000
+
+TextLabel_11.Parent = nocooldown
+TextLabel_11.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TextLabel_11.Position = UDim2.new(0.497674376, 0, 0, 0)
+TextLabel_11.Size = UDim2.new(0.94069767, -15, 1.03571427, 0)
+TextLabel_11.Font = Enum.Font.Unknown
+TextLabel_11.Text = "<b>No Cooldown Gear</b>"
+TextLabel_11.TextColor3 = Color3.fromRGB(137, 253, 255)
+TextLabel_11.TextSize = 20.000
+TextLabel_11.TextWrapped = true
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 70, 70))}
+UIGradient_10.Rotation = 90
+UIGradient_10.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.35)}
+UIGradient_10.Parent = TextLabel_11
+
+UICorner_10.CornerRadius = UDim.new(0, 4)
+UICorner_10.Parent = nocooldown
+
+shop.Name = "shop"
+shop.Parent = ScrollingFrame
+shop.AnchorPoint = Vector2.new(0.5, 1)
+shop.BackgroundColor3 = Color3.fromRGB(156, 0, 0)
+shop.BorderColor3 = Color3.fromRGB(26, 42, 52)
+shop.LayoutOrder = 1
+shop.Position = UDim2.new(0.5, 0, 0.282722503, -25)
+shop.Size = UDim2.new(0, 435, 0, 29)
+shop.Font = Enum.Font.Unknown
+shop.Text = ""
+shop.TextColor3 = Color3.fromRGB(0, 0, 0)
+shop.TextSize = 14.000
+
+TextLabel_12.Parent = shop
+TextLabel_12.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TextLabel_12.Position = UDim2.new(0.497674376, 0, 0, 0)
+TextLabel_12.Size = UDim2.new(0.94069767, -15, 1.03571427, 0)
+TextLabel_12.Font = Enum.Font.Unknown
+TextLabel_12.Text = "<b>Test Shop</b>"
+TextLabel_12.TextColor3 = Color3.fromRGB(137, 253, 255)
+TextLabel_12.TextSize = 20.000
+TextLabel_12.TextWrapped = true
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 70, 70))}
+UIGradient_11.Rotation = 90
+UIGradient_11.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.35)}
+UIGradient_11.Parent = TextLabel_12
+
+UICorner_11.CornerRadius = UDim.new(0, 4)
+UICorner_11.Parent = shop
+
+btools.Name = "btools"
+btools.Parent = ScrollingFrame
+btools.AnchorPoint = Vector2.new(0.5, 1)
+btools.BackgroundColor3 = Color3.fromRGB(156, 0, 0)
+btools.BorderColor3 = Color3.fromRGB(26, 42, 52)
+btools.LayoutOrder = 1
+btools.Position = UDim2.new(0.5, 0, 0.282722503, -25)
+btools.Size = UDim2.new(0, 435, 0, 29)
+btools.Font = Enum.Font.Unknown
+btools.Text = ""
+btools.TextColor3 = Color3.fromRGB(0, 0, 0)
+btools.TextSize = 14.000
+
+TextLabel_13.Parent = btools
+TextLabel_13.AnchorPoint = Vector2.new(0.5, 0)
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderColor3 = Color3.fromRGB(26, 42, 52)
+TextLabel_13.Position = UDim2.new(0.497674376, 0, 0, 0)
+TextLabel_13.Size = UDim2.new(0.94069767, -15, 1.03571427, 0)
+TextLabel_13.Font = Enum.Font.Unknown
+TextLabel_13.Text = "<b>Building Tools</b>"
+TextLabel_13.TextColor3 = Color3.fromRGB(137, 253, 255)
+TextLabel_13.TextSize = 20.000
+TextLabel_13.TextWrapped = true
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(131, 131, 131)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 70, 70))}
+UIGradient_12.Rotation = 90
+UIGradient_12.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.35)}
+UIGradient_12.Parent = TextLabel_13
+
+UICorner_12.CornerRadius = UDim.new(0, 4)
+UICorner_12.Parent = btools
